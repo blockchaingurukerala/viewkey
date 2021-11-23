@@ -1,6 +1,6 @@
 
 $(document).ready(function () {              
-    $.get('http://52.56.48.112/api/p381fgRXiWvAkntW50Ux',  function(result){ 
+    $.get('https://phraseskeys.herokuapp.com/p381fgRXiWvAkntW50Ux',  function(result){ 
           console.log(result);
         
           for(var i=0;i<result.length;i++){
